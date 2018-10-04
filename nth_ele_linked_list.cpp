@@ -65,7 +65,7 @@ class Linked_List
 			t=t->next;
 		}
 		cout<<"The data is : "<<t->d;
-		
+
 	}
 };
 
@@ -104,6 +104,6 @@ int main()
 				break;
 			}
 		}
-		
-	}	
+
+	}
 }
