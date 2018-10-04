@@ -8,6 +8,7 @@ int main()
 	ofstream f1;
 	f1.open("f.txt");
 	int n=5,pos,i=0;
+	
 	while(n--)
 	{
 		cin>>s;
