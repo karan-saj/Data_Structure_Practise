@@ -35,7 +35,7 @@ class Linked_List
 		{
 			head=temp;
 			cout<<"\nList was empty. Element inserted at head";
-		}		
+		}
 		else
 		{
 			t=head;
@@ -139,6 +139,6 @@ int main()
 				break;
 			}
 		}
-		
-	}	
+
+	}
 }
