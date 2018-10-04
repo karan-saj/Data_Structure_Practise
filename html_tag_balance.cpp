@@ -11,7 +11,7 @@ int main()
 		{
 			cout<<"\nInvalid Entry\nEnter an even number \n";
 		}
-		
+
 		cout<<"Enter Size of stack : " ;
 		cin>>n;
 
@@ -34,7 +34,7 @@ int main()
 		{
 			c--;
 		}
-		else 
+		else
 		{
 			c++;
 		}
@@ -47,5 +47,5 @@ int main()
 	{
 		cout<<"Tags are not balanced";
 	}
-	
+
 } */
