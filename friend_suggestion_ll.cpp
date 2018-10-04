@@ -125,7 +125,7 @@ class Linked_List
 int main()
 {
 	Linked_List l;	// l object created for linked list
-	
+
 	int n,i=0,no;	// declaration of variables
 	/*
 		* n = number of people
@@ -133,10 +133,10 @@ int main()
 		* no = number of friends of a person
 	*/
 	string s,s1;	// string variable for char array scan
-	
+
 	cout<<"\nEnter number of friends to maintain list for : ";	// Scan total no of people to maintain list for
 	cin>>n;
-	
+
 	for(i=0;i<n;i++)
 	{
 		cout<<"\nEnter Name of person to create a list : ";	//	Scan total name of the person
@@ -160,6 +160,6 @@ int main()
 	cin>>s1;
 	l.del(s,s1);
 	l.display();
-	
+
 	return 0;
 }
