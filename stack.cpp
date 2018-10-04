@@ -3,13 +3,13 @@ using namespace std;
 
 class Stack
 {
-	
+
 public:
-	
+
 	int s;
 	int a[s];
 	int top=0;
-	
+
 	Stack(int x)
 	{
 		s=x;
@@ -22,7 +22,7 @@ public:
 		a[top]=x;
 		top++;
 	}
-	
+
 	void pop()
 	{
 		if(top==0)
@@ -36,19 +36,19 @@ public:
 		for(int i=4;i>=0;i--)
 		cout<<a[i]<<endl;
 	}
-	 
-	
+
+
 };
 
 int main()
 {
 	int n,v,si,c=1;;
-	
+
 	cout<<"Enter Size";
 	cin>>si;
 	Stack q(si);
-	
-	while(c==1)	
+
+	while(c==1)
 	{
 		cout<<"\nSelect Choice: \n1. Push\n2. Pop\n3. Display\n4. Exit\n  ";
 		cin>>n;
@@ -73,7 +73,7 @@ int main()
 				break;
 			}
 		}
-		
+
 	}
 	return 0;
 }
