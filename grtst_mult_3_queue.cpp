@@ -9,6 +9,7 @@ int main()
 	cout<<"Enter no of elements : ";
 	cin>>n;
 	queue <int> q;
+	
 	for(int i=0;i<n;i++)
 	{
 		int a;
