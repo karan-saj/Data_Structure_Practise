@@ -2,6 +2,7 @@
 #include<string.h>
 #include<stack>
 using namespace std;
+
 class Stack
 {
 	public:
