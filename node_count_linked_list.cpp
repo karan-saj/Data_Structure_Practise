@@ -68,7 +68,7 @@ class Linked_List
 		{
 			cou++;
 			t=t->next;
-			
+
 		count(t);
 		}
 	}
@@ -108,6 +108,6 @@ int main()
 				break;
 			}
 		}
-		
-	}	
+
+	}
 }
