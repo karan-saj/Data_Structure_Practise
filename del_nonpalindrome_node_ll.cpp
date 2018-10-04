@@ -4,7 +4,7 @@ using namespace std;
 
 struct node	// Create linked list structure
 {
-	int d;	
+	int d;
 	node *next;
 };
 node *head=NULL;	//Initialise head = NULL
@@ -58,7 +58,7 @@ class Linked_List
 			}
 		}
 	}
-	
+
 	int count(node *t)
 	{
 		static int cou=0;
@@ -74,7 +74,7 @@ class Linked_List
 			count(t);
 		}
 	}
-	
+
 
 };
 
@@ -91,7 +91,7 @@ int main()
 		l.insert_tail(n);
 		i++;
 	}
-	cout<<"\nEnter second number : ";	
+	cout<<"\nEnter second number : ";
 	l.display();
-	return 0;	
+	return 0;
 }
