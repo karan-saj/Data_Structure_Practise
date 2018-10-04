@@ -39,6 +39,7 @@ int main()
 	as.l=as.s.size();
 	as.c=as.l/2;
 	as.swap();
+	
 	while (!as.s.empty())
     {
         cout << as.s.top();
