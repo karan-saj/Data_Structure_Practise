@@ -31,7 +31,7 @@ class Que
 			s1.push(n);
 			q[r]=n;
 			r++;
-			
+
 		}
 	}
 
@@ -46,9 +46,9 @@ class Que
 			}
 		else
 			f++;
-		
+
 	}
-	
+
 	void dis()
 	{
 		for(int i=f;i<=r;i++)
