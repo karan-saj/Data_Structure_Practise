@@ -31,7 +31,7 @@ int insert_t(node *temp,node *t)
 		t->l=temp;
 	}
 	else if(t->r==NULL);
-	
+
 	{
 		t->r=temp;
 	}
