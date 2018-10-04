@@ -39,12 +39,12 @@ int main()
 	c=0;
 	for(int i=0;i<n;i++)
 	{
-		
+
 		if(t[i]<t[i+1])
 		{
 			c++;
 		}
-		else if(i==n-1) 
+		else if(i==n-1)
 		{
 			c++;
 		}
@@ -54,6 +54,6 @@ int main()
 		}
 	}
 	cout<<"\nNo. of drops :"<<c;
-	
+
 	return 0;
 }
