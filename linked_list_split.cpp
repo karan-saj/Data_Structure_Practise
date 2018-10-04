@@ -102,7 +102,7 @@ class Linked_List
 		n=t->next;
 		head2=n;
 		t->next=NULL;
-		
+
 	}
 };
 
@@ -124,7 +124,7 @@ int main()
 			}
 			case 2: {
 				l.middle();
-				
+
 				break;
 			}
 			case 3: {
@@ -139,6 +139,6 @@ int main()
 				break;
 			}
 		}
-		
-	}	
+
+	}
 }
