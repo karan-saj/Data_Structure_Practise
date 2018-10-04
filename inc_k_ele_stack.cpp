@@ -9,7 +9,7 @@ void myfunction(std::stack<int>& s,int n,int q,int m)
 {
 	if(m>0)
 	{
-		
+
 		int a;
 		a=s.top();
 		m--;
