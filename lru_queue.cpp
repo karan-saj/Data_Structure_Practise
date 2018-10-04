@@ -46,7 +46,7 @@ int main()
 			if(v!=a[i-s+1]&&v!=a[i-s+2]&&v!=a[i-s+3])
 			v=a[i];
 			f++;
-			
+
 		}
 		q.push(v);
 		i++;
