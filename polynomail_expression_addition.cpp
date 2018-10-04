@@ -15,7 +15,7 @@ class Linked_List
 	private:
 		node *head=NULL;
 	public:
-		
+
 	void insert(int c, int p)	//Insert node at end of list;
 	{
 		node *temp,*t;
@@ -39,7 +39,7 @@ class Linked_List
 
 	node* create(int c, int p)	// Create a node;
 	{
-		
+
 		node *q=new node;
 		q->power=p;
 		q->coef=c;
@@ -70,7 +70,7 @@ class Linked_List
 
 int main()
 {
-	
+
 	int n,t;
 	cout<<"\nEnter no of expressions : ";
 	cin>>t;
