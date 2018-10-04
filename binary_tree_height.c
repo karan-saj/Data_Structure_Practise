@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-struct node
+struct Node
 {
     int data;
     struct node* left;
@@ -26,7 +26,7 @@ int maxDepth(struct node* node)
 struct node* newNode(int data)
 {
     struct node* node = (struct node*)
-                                malloc(sizeof(struct node));
+    malloc(sizeof(struct node));
     node->data = data;
     node->left = NULL;
     node->right = NULL;
