@@ -103,7 +103,7 @@ int main()
 				l.middle(f);
 				break;
 			}
-			case 3: 
+			case 3:
 			{
 				l.display();
 				break;
@@ -116,6 +116,6 @@ int main()
 				break;
 			}
 		}
-		
-	}	
+
+	}
 }
