@@ -13,7 +13,7 @@ int main()
 		if(a[i]=='('||a[i]=='{'||a[i]=='[')
 			s.push(a[i]);
 		else if(a[i]==')'||a[i]=='}'||a[i]=='[')
-			s.pop();	
+			s.pop();
 	}
 	if(s.empty())
 		cout<<"Balanced";
