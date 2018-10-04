@@ -102,10 +102,10 @@ class Linked_List
 			{
 				n=t1;
 				t1=t1->next;
-				n=n->next;				
+				n=n->next;
 			}
 		}
-		
+
 	}
 
 };
@@ -116,7 +116,7 @@ int main()
 	int n,c=0,i=0,v;
 	while(c!=4)
 	{
-		
+
 		cout<<"\nSelect option :\n1. Insert \n2. Display the list \n3. Merge \n4. End\n";
 		cin>>c;
 		switch(c)
@@ -139,7 +139,7 @@ int main()
 				break;
 			}
 			case 4: {
-				
+
 				break;
 			}
 			default :{
@@ -147,7 +147,7 @@ int main()
 				break;
 			}
 		}
-		
+
 	}
-	return 0;	
-} 
+	return 0;
+}
