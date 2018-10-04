@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    string s;
+string s;
 ofstream f1;
  f1.open("file.txt");
  int n=3,pos,i=0;
