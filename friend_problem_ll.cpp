@@ -103,7 +103,7 @@ class Linked_List
 					t1=t1->next;
 				}
 				t=t->next;
-				
+
 			}
 		}
 	}
@@ -142,6 +142,6 @@ int main()
 				break;
 			}
 		}
-		
-	}	
+
+	}
 }
